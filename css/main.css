@@ -88,11 +88,16 @@ body {
 .product {
     display: flex;
     justify-content: space-evenly;
+    margin-bottom: 30px;
 }
 
 .btn {
     background: #a35638;
     border: #a35638;
+}
+
+.btn:hover {
+    background-color: #000000;
 }
 
 /* contact section  */
@@ -229,6 +234,17 @@ body {
         width: 300px;
         margin-left: 31%;
     }
+    .product {
+        display: flex;
+        flex-direction: column;
+        width: 25%;
+        margin-right: 35%;
+        margin-left: 31%;
+    }
+
+    .card {
+        margin-bottom: 30px;
+    }
 
 }
 
@@ -261,6 +277,10 @@ body {
     .input input {
         width: 300px;
         margin-left: 19%;
+    }
+
+    .product {
+        margin-left: 20%;
     }
 }
 
