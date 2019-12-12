@@ -16,6 +16,11 @@ body {
     border-bottom: 2px solid black;
 }
 
+.row {
+    margin: none;
+    width: 100%;
+}
+
 .businessname {
     display: flex;
 }
